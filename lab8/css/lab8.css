@@ -7,7 +7,7 @@ p {
 }
 .writeup-section:
 
-body {
+p body {
     font-family: Helvetica, Verdana, Arial, "san serif";
     background-color: darkgray;
     padding: 25px;
@@ -37,5 +37,5 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    text-decoration-style: wavy;
+    text-decoration-style: underline;
 }
