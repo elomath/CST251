@@ -1,13 +1,18 @@
-p {
-  color: black;
-  margin-left: 15px;
-  font-size: 90%;
+
+#paral {
+	text-align: center;
+	color: black;
 }
+#headl {
+	text-align: center;
+	color: red;
+}
+
 #writeup {margin left: 20px;
 }
 .writeup-section:
 
-p body {
+ body {
     font-family: Helvetica, Verdana, Arial, "san serif";
     background-color: darkgray;
     padding: 25px;
@@ -23,6 +28,8 @@ div#content {
 
 h1, h2, h3 {
     font-family: "Courier New", monospace;
+    color: Red;
+    font-size: 100%;
 }
 
 img {
