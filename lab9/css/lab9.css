@@ -1,54 +1,64 @@
-
-#paral {
-	text-align: center;
-	color: black;
-}
-#headl, h1 {
-	text-align: center;
-	color: red;
-  font-size: 200%;
+body {
+  background-color: lightblue;
+	font-family: san-serif;
+	font-size: 15px;
 }
 
-#writeup {margin left: 20px;
-}
-.writeup-section:
-
-p.center {
+h1 {
+  color: white;
   text-align: center;
-  color: yellow;
-}
-
- body; div {
-    font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: darkgray;
-    padding: 25px;
-    font-size: 120%;
-}
-
-div#content {
-    padding: 50px;
-    background-color: lightgray;
-    border: solid 1px #333333;
-    height: 80vh;
+	font-size: 20px;
 }
 
 h2, h3 {
-    font-family: "Courier New", monospace;
-    color: Red;
-    font-size: 150%;
+	color: Black;
+	text-align: ;
+	font-size: 20px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
 }
 
 img {
-    float: right;
-    width: 400px;
-    height: auto;
+max-width:600px;
+float: left;
+margin: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: maroon;
+div#problems {
+	background color: orange;
 }
-a:hover {
-    text-decoration: underline;
-    text-decoration-style: underline;
+
+div#challenge {
+	background color: red;
+}
+
+div#results {
+	background color: yellow;
+}
+
+#bio-image {
+width: 400px;
+height: auto;
+}
+
+.content {
+wigth: 50%
+height: 100px
+margin: 50px;
+padding: 50px;
+}
+
+.content {
+border-style: solid;
+border-width: 50px;
+border-color: lightgray;
+background-color: lightblue;
+border-radius:
+}
+
+.content {
+outline: solid 6px #eeeeee;
 }
