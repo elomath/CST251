@@ -1,14 +1,20 @@
 
 /*most general at top*/
 
-img {
-	max-width: 200px;
-	float: right;
+body {
+	background-color: rebeccapruple;
+}
+
+h1 {
 
 }
 
-html,body {
-	background-color: rebeccapruple;
+h2,h3 {
+
+}
+
+p {
+
 }
 
 #content {
