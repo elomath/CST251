@@ -1,13 +1,13 @@
 
 /*most general at top*/
 
-body {
-	background-color: rebeccapruple;
+html, body {
+	background-color: rebeccapurple;
 }
 
 h1 {
 	font-size: 30px;
- 	font-family: gothic;
+ 	font-family: serif;
  	font-style: bold;
 }
 
@@ -19,7 +19,7 @@ h2 {
 
 p {
 	font-size: 10;
- 	font-family: times new roman;
+ 	font-family: "Times New Roman", "Times Roman", serif;
  	font-style: normal;
 }
 
@@ -32,6 +32,11 @@ p {
 	/*Change the color of your body and your content div*/
 	backround-color: yellow;
 }
+
+/*******************************/
+/* Divided into useful sections*/
+/*******************************/
+
 	/*Style your image, and adjust the height or the width of your image*/
 .feature-image {
 	width: auto;
