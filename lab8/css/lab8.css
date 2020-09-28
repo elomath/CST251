@@ -13,6 +13,11 @@
 }
 .writeup-section:
 
+p.center {
+text-align: center;
+color: yellow;
+}
+
  body {
     font-family: Helvetica, Verdana, Arial, "san serif";
     background-color: darkgray;
