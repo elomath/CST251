@@ -3,9 +3,10 @@
 	text-align: center;
 	color: black;
 }
-#headl {
+#headl, h1 {
 	text-align: center;
 	color: red;
+  font-size: 200%;
 }
 
 #writeup {margin left: 20px;
@@ -26,7 +27,7 @@ div#content {
     height: 80vh;
 }
 
-h1, h2, h3 {
+h2, h3 {
     font-family: "Courier New", monospace;
     color: Red;
     font-size: 100%;
