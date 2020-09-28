@@ -36,7 +36,7 @@ a {
 	margin: 50px;
 	padding: 20px;
 	/*Add a border */
-	border: dashed 50px yellow;
+	border: dashed 25px yellow;
 	/*Change the color of your body and your content div*/
 	backround-color: yellow;
 }
