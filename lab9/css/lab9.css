@@ -1,64 +1,20 @@
-body {
-  background-color: lightblue;
-	font-family: san-serif;
-	font-size: 15px;
-}
-
-h1 {
-  color: white;
-  text-align: center;
-	font-size: 20px;
-}
-
-h2, h3 {
-	color: Black;
-	text-align: left;
-	font-size: 20px;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-
 img {
-max-width:600px;
-float: left;
-margin: 20px;
+	max-width: 200px;
+
+
 }
 
-div#problems {
-	background color: orange;
+html,body {
+	background-color: rebeccapruple;
 }
 
-div#challenge {
-	background color: red;
-}
-
-div#results {
-	background color: yellow;
-}
-
-#bio-image {
-width: 400px;
-height: auto;
-}
-
-.content {
-wigth: 50%
-height: 100px
-margin: 50px;
-padding: 50px;
-}
-
-.content {
-border-style: solid;
-border-width: 50px;
-border-color: lightgray;
-background-color: lightblue;
-border-radius:
-}
-
-.content {
-outline: solid 6px #eeeeee;
+#content {
+	/*Modify the margins and padding of your content div*/
+	margin: 50px;
+	padding: 20px;
+	/*Add a border */
+	border: dashed 50px blue;
+	/*Change the color of your body and your content div*/
+	backround-color: yellow;
+	/*Style your image, and adjust the height or the width of your image*/
 }
