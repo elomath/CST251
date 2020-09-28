@@ -25,6 +25,7 @@ p {
  	font-style: normal;
 	color: white;
 }
+
 a {
 	color: white;
 	font-style: wavy;
@@ -35,7 +36,7 @@ a {
 	margin: 50px;
 	padding: 20px;
 	/*Add a border */
-	border: dashed 50px blue;
+	border: dashed 50px yellow;
 	/*Change the color of your body and your content div*/
 	backround-color: yellow;
 }
