@@ -1,0 +1,54 @@
+
+#paral {
+	text-align: center;
+	color: black;
+}
+#headl, h1 {
+	text-align: center;
+	color: red;
+  font-size: 200%;
+}
+
+#writeup {margin left: 20px;
+}
+.writeup-section:
+
+p.center {
+  text-align: center;
+  color: yellow;
+}
+
+ body; div {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: darkgray;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 50px;
+    background-color: lightgray;
+    border: solid 1px #333333;
+    height: 80vh;
+}
+
+h2, h3 {
+    font-family: "Courier New", monospace;
+    color: Red;
+    font-size: 150%;
+}
+
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: underline;
+}
