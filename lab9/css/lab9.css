@@ -25,6 +25,10 @@ p {
  	font-style: normal;
 	color: white;
 }
+a {
+	color: white;
+	font-style: wavy;
+}
 
 #content {
 	/*Modify the margins and padding of your content div*/
