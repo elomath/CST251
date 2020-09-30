@@ -71,14 +71,22 @@ a {
 }
 
 /*******************************/
-/* Added Boxes */
+/* Classes and IDs */
 /*******************************/
 
 .sidebar {
-background color-: #ffe6b3
-
+	background color-: #ffe6b3
+	font-family: anarchy;
 }
 
+. wide {
+	letter-spacing: 3px;
+}
+
+. bodytext {
+	word-spacing: 10px;
+	line-height: 2em;
+}
 /*******************************/
 /* Divided into useful sections*/
 /*******************************/
