@@ -1,22 +1,26 @@
 
 /*most general at top*/
 
+/*******************************/
+/* Tag Edits */
+/*******************************/
+
 html, body {
-	background-color: rebeccapurple;
+	background-color: lightgray;
 }
 
 h1 {
 	font-size: 30px;
  	font-family: serif;
 	font-style: bold;
-	color: gold;
+	color: Maroon;
 }
 
 h2 {
 	font-size: 20px;
 	font-family: sans-serif;
 	font-style: italic;
-	color: silver;
+	color: ;
 }
 
 p {
@@ -28,21 +32,27 @@ p {
 
 a {
 	color: white;
-	font-style: wavy;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-style: normal;
 }
+
+/*******************************/
+/* Margins and Padding */
+/*******************************/
 
 #content {
 	/*Modify the margins and padding of your content div*/
 	margin: 50px;
 	padding: 20px;
 	/*Add a border */
-	border: dashed 25px yellow;
+	border: dashed 10px yellow;
 	/*Change the color of your body and your content div*/
 	backround-color: yellow;
 }
 
 /*******************************/
-/* Divided into useful sections*/
+/* Image Edits */
 /*******************************/
 
 	/*Style your image, and adjust the height or the width of your image*/
@@ -61,7 +71,15 @@ a {
 }
 
 /*******************************/
-/* Divided into useful sections*/
+/* Added Boxes */
 /*******************************/
 
+.sidebar {
+background color-: #ffe6b3
+
+}
+
+/*******************************/
+/* Divided into useful sections*/
+/*******************************/
 /* Most specific at bottom*/
