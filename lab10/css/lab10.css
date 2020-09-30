@@ -39,20 +39,6 @@ a {
 }
 
 /*******************************/
-/* Margins and Padding */
-/*******************************/
-
-#content {
-	/*Modify the margins and padding of your content div*/
-	margin: 50px;
-	padding: 20px;
-	/*Add a border */
-	border: dashed 10px yellow;
-	/*Change the color of your body and your content div*/
-	backround-color: yellow;
-}
-
-/*******************************/
 /* Image Edits */
 /*******************************/
 
@@ -72,18 +58,34 @@ a {
 }
 
 /*******************************/
-/* Classes and IDs */
+/* Classes */
 /*******************************/
 
-. wide {
+.wide {
 	letter-spacing: 3px;
 }
 
-. bodytext {
+.bodytext {
 	word-spacing: 10px;
 	line-height: 2em;
 }
 /*******************************/
-/* Divided into useful sections*/
+/* IDs*/
 /*******************************/
+
+#content {
+	/*Modify the margins and padding of your content div*/
+	margin: 50px;
+	padding: 20px;
+	/*Add a border */
+	border: dashed 10px yellow;
+	/*Change the color of your body and your content div*/
+	backround-color: yellow;
+}
+
+#title {
+	letter-spacing: 3px;
+
+}
+
 /* Most specific at bottom*/
