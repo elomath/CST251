@@ -66,7 +66,8 @@ a {
 }
 
 .bodytext {
-	word-spacing: 10px;
+	font-size: 10px;
+	word-spacing: 5px;
 	line-height: 2em;
 }
 /*******************************/
