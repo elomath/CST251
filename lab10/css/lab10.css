@@ -79,7 +79,7 @@ a {
 	margin: 50px;
 	padding: 20px;
 	/*Add a border */
-	border: dashed 10px yellow;
+	border: dashed 10px #45EDDC;
 	/*Change the color of your body and your content div*/
 	backround-color: #45EDDC;
 }
