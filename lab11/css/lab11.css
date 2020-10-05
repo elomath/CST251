@@ -39,12 +39,14 @@ a {
 }
 
 aside {
-	blockstyle: inline;
+	color: #ED7A45;
+	block-style: inline;
 	position: fixed;
 	top:0;
-	right:auto;
-	width: 100%
-	height: 30px
+	right:-100px;
+	width: 30%;
+	min-width: 300px;
+	height: 30px;
 }
 
 /*******************************/
