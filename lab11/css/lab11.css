@@ -25,7 +25,7 @@ h2 {
 }
 
 p {
-	font-size: 10;
+	font-size: 40px;
  	font-family: "Times New Roman", "Times Roman", serif;
  	font-style: normal;
 	color: #FBE8DF;
@@ -52,8 +52,9 @@ aside {
 
 nav {
 	display: inline;
-	position: sticky;
-
+	position: static;
+	padding: 30px;
+	font-size: 40px;
 }
 
 /*******************************/
@@ -61,26 +62,18 @@ nav {
 /*******************************/
 
 	/*Style your image, and adjust the height or the width of your image*/
-.feature-image {
-	width: 100%;
-	height: 300px;
-	Margin: 10px;
-	padding: 30px;
-	background-color: articblue;
-	float: right;
-}
-
-.feature-image img {
-	position: fixed;
-	/*top and right are relative to the default position. - moves block right or
-	up but positive moves it left or down*/
-	top: -100px;
-	right: -100px;
-	height: 100px;
-	max-width:100%;
-	width: 100%;
-	padding: 30px;
-}
+	.feature-image img {
+		position: absolute;
+		/*top and right are relative to the default position. - moves block right or
+		up but positive moves it left or down*/
+		top: -100px;
+		right: -100px;
+		height: 100px;
+		max-width:100%;
+		width: 100%;
+		padding: 30px;
+		margin: auto;
+	}
 
 /*******************************/
 /* Classes */
