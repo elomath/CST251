@@ -6,7 +6,7 @@
 /*******************************/
 
 html, body {
-	background-color: lightgray;
+	background-color: #0EA192;
 	font-family: "Times New Roman", Roman, Verdana;
 }
 
@@ -14,25 +14,25 @@ h1 {
 	font-size: 70px;
  	font-family: serif;
 	font-style: bold;
-	color: Maroon;
+	color: #A1481F;
 }
 
 h2 {
 	font-size: 60px;
 	font-family: sans-serif;
 	font-style: italic;
-	color: ;
+	color: #A1481F;
 }
 
 p {
 	font-size: 10;
  	font-family: "Times New Roman", "Times Roman", serif;
  	font-style: normal;
-	color: white;
+	color: #FBE8DF;
 }
 
 a {
-	color: white;
+	color: #ED7A45;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-style: normal;
@@ -81,7 +81,7 @@ a {
 	/*Add a border */
 	border: dashed 10px yellow;
 	/*Change the color of your body and your content div*/
-	backround-color: yellow;
+	backround-color: #45EDDC;
 }
 
 #title {
