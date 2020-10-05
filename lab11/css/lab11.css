@@ -33,6 +33,7 @@ p {
 
 a {
 	color: #ED7A45;
+	position: fixed;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-style: normal;
