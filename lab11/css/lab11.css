@@ -1,0 +1,92 @@
+
+/*most general at top*/
+
+/*******************************/
+/* Tag Edits */
+/*******************************/
+
+html, body {
+	background-color: #0EA192;
+	font-family: "Times New Roman", Roman, Verdana;
+}
+
+h1 {
+	font-size: 70px;
+ 	font-family: serif;
+	font-style: bold;
+	color: #A1481F;
+}
+
+h2 {
+	font-size: 60px;
+	font-family: sans-serif;
+	font-style: italic;
+	color: #A1481F;
+}
+
+p {
+	font-size: 10;
+ 	font-family: "Times New Roman", "Times Roman", serif;
+ 	font-style: normal;
+	color: #FBE8DF;
+}
+
+a {
+	color: #ED7A45;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+/*******************************/
+/* Image Edits */
+/*******************************/
+
+	/*Style your image, and adjust the height or the width of your image*/
+.feature-image {
+	width: auto;
+	height:auto;
+	Margin: 10px;
+	padding: 10px;
+	background-color: articblue;
+	float: right;
+}
+
+.feature-image img {
+	max-width:100%;
+	width: 100%;
+}
+
+/*******************************/
+/* Classes */
+/*******************************/
+
+.wide {
+	letter-spacing: 3px;
+}
+
+.bodytext {
+	font-size: 40px;
+	word-spacing: 5px;
+	line-height: 2em;
+}
+/*******************************/
+/* IDs*/
+/*******************************/
+
+#content {
+	/*Modify the margins and padding of your content div*/
+	margin: 50px;
+	padding: 20px;
+	/*Add a border */
+	border: dashed 10px #45EDDC;
+	/*Change the color of your body and your content div*/
+	backround-color: #45EDDC;
+}
+
+#title {
+	letter-spacing: 3px;
+
+}
+
+/* Most specific at bottom*/
