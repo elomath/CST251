@@ -41,6 +41,12 @@ a {
 	backround-color: yellow;
 }
 
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
 /*******************************/
 /* Divided into useful sections*/
 /*******************************/
