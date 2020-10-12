@@ -126,9 +126,9 @@ nav {
 	position: static;
 	top: -100px;
 	right: -100px;
-	height: 100px;
-	max-width:100%;
-	width: 125px;
+	max-height: 100px;
+	max-width:125px;
+	width: 30%;
 	padding: 30px;
 	margin: auto;
 }
@@ -138,8 +138,7 @@ nav {
 	top: -100px;
 	right: -100px;
 	height: 100px;
-	max-width:100%;
-	width: 125px;
+	max-width:125px;
 	padding: 30px;
 	margin: auto;
 }
