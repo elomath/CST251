@@ -1,73 +1,147 @@
 
 /*most general at top*/
 
+/*******************************/
+/* Tag Edits */
+/*******************************/
+
 html, body {
-	background-color: rebeccapurple;
+	background-color: #0EA192;
+	font-family: "Times New Roman", Roman, Verdana;
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 70px;
  	font-family: serif;
 	font-style: bold;
-	color: gold;
+	color: #A1481F;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 60px;
 	font-family: sans-serif;
 	font-style: italic;
-	color: silver;
+	color: #A1481F;
 }
 
 p {
-	font-size: 10;
+	font-size: 40px;
  	font-family: "Times New Roman", "Times Roman", serif;
  	font-style: normal;
-	color: white;
+	color: #FBE8DF;
 }
 
 a {
-	color: white;
-	font-style: wavy;
+	color: #ED7A45;
+	position: fixed;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-style: normal;
 }
+
+#sidebar {
+	color: #ED7A45;
+	display: inline;
+	position: fixed;
+	font-size: 50px;
+	top:100px;
+	right:100px;
+	width: 30%;
+	min-width: 300px;
+	height: 30px;
+}
+
+nav {
+	display: inline;
+	position: static;
+	padding: 30px;
+	font-size: 40px;
+}
+
+/*******************************/
+/* Image Edits */
+/*******************************/
+
+	/*Style your image, and adjust the height or the width of your image*/
+	.feature-image img {
+		position: absolute;
+		/*top and right are relative to the default position. - moves block right or
+		up but positive moves it left or down*/
+		top: -100px;
+		right: -100px;
+		height: 100px;
+		max-width:100%;
+		width: 100%;
+		padding: 30px;
+		margin: auto;
+	}
+
+/*******************************/
+/* Classes */
+/*******************************/
+
+.center-div {
+width: 30%;
+border: solid 3px black;
+height: 250px;
+}
+
+.center-div img {
+width: 150px;
+height: auto;
+
+}
+
+.wide {
+	letter-spacing: 3px;
+}
+
+.bodytext {
+	font-size: 40px;
+	word-spacing: 5px;
+	line-height: 2em;
+}
+/*******************************/
+/* IDs*/
+/*******************************/
 
 #content {
 	/*Modify the margins and padding of your content div*/
 	margin: 50px;
 	padding: 20px;
 	/*Add a border */
-	border: dashed 25px yellow;
+	border: dashed 10px #45EDDC;
 	/*Change the color of your body and your content div*/
-	backround-color: yellow;
+	backround-color: #45EDDC;
 }
 
-iframe#fake {
-    width: 800px;
-    height: 500px;
-    resize: both;
-    overflow: hidden;
-}
-/*******************************/
-/* Divided into useful sections*/
-/*******************************/
+#title {
+	letter-spacing: 3px;
 
-	/*Style your image, and adjust the height or the width of your image*/
-.feature-image {
-	width: auto;
-	height:auto;
-	Margin: 10px;
-	padding: 10px;
-	background-color: articblue;
+}
+
+#floated {
 	float: right;
+	overflow:hidden;
 }
 
-.feature-image img {
-	max-width:100%;
-	width: 100%;
+#center-horz{
+	text-align: center;
+	overflow:hidden;
 }
 
-/*******************************/
-/* Divided into useful sections*/
-/*******************************/
+#center-img{
+text-align: center;
+}
 
+#center-both{
+	position: relative;
+}
+
+#center-both img {
+position:absolute;
+top: 50%;
+left:50;
+transform: translate(-50%,50%);
+}
 /* Most specific at bottom*/

@@ -122,10 +122,12 @@ height: auto;
 
 #floated {
 	float: right;
+	overflow:hidden;
 }
 
 #center-horz{
 	text-align: center;
+	overflow:hidden;
 }
 
 #center-img{
