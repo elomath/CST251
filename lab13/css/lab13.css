@@ -123,8 +123,8 @@ height: auto;
 /* iframe */
 
 iframe#fake {
-witdh: 800px;
-
-
-
+width: 2000px;
+height: 1000px;
+resize:both
+overflow:hidden;
 }
