@@ -120,28 +120,11 @@ height: auto;
 
 }
 
-#floated {
-	float: right;
-	overflow:hidden;
-}
+/* iframe */
 
-#center-horz{
-	text-align: center;
-	overflow:hidden;
-}
+iframe#fake {
+witdh: 800px;
 
-#center-img{
-text-align: center;
-}
 
-#center-both{
-	position: relative;
-}
 
-#center-both img {
-position:absolute;
-top: 50%;
-left:50;
-transform: translate(-50%,50%);
 }
-/* Most specific at bottom*/
