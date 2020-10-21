@@ -1,44 +1,42 @@
 
 /*most general at top*/
-
-html, body {
-	background-color: rebeccapurple;
+body {
+	background-image:
+		radial-gradient(blue,black);
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 150px;
  	font-family: serif;
 	font-style: bold;
-	color: gold;
+	color: white;
+	border: 5px dotted #FF8D33;
+	box-shadow: 1px black;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 80px;
 	font-family: sans-serif;
 	font-style: italic;
-	color: silver;
+	color: white;
+	text-shadow: -1px 0 black,
+ 0 1px black,
+ 1px 0 black,
+ 0 -1px black;
 }
 
 p {
-	font-size: 10;
+	font-size: 30px;
  	font-family: "Times New Roman", "Times Roman", serif;
  	font-style: normal;
 	color: white;
+	border: 5px solid #FF8D33;
+	width: 50%;
 }
 
 a {
 	color: white;
 	font-style: wavy;
-}
-
-#content {
-	/*Modify the margins and padding of your content div*/
-	margin: 50px;
-	padding: 20px;
-	/*Add a border */
-	border: dashed 25px yellow;
-	/*Change the color of your body and your content div*/
-	backround-color: yellow;
 }
 
 /*******************************/
@@ -47,17 +45,16 @@ a {
 
 	/*Style your image, and adjust the height or the width of your image*/
 .feature-image {
-	width: auto;
-	height:auto;
-	Margin: 10px;
-	padding: 10px;
-	background-color: articblue;
-	float: right;
+	position: absolute;
+	transform: translateX(1150px);
+	object-fit: cover;
 }
 
 .feature-image img {
-	max-width:100%;
-	width: 100%;
+	border-radius: 25px;
+	filter: grayscale(1);
+	width: 600px;
+	height: auto;
 }
 
 /*******************************/
