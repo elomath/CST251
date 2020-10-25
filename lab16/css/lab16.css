@@ -1,8 +1,8 @@
 
 /*most general at top*/
 body {
-	background-image:url(paper_texture), radial-gradient(blue,black);
-	background-position: left top;
+	background-image:url(overwatch_circle_logo.png), radial-gradient(blue,black);
+	background-position: right bottom,left top;
 	background-repeat: no-repeat, repeat;
 }
 
