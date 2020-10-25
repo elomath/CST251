@@ -1,8 +1,9 @@
 
 /*most general at top*/
 body {
-	background-image:
-		radial-gradient(blue,black);
+	background-image:url(paper_texture), radial-gradient(blue,black);
+	background-position: left top;
+	background-repeat: no-repeat, repeat;
 }
 
 h1 {
