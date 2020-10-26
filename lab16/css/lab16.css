@@ -1,9 +1,9 @@
 
 /*most general at top*/
 body {
-	background-image:url(overwatch_circle_logo.png), radial-gradient(blue,black);
-	background-position: right bottom,left top;
-	background-repeat: no-repeat, repeat;
+	background-image: radial-gradient(blue,black), url("overwatch_circle_logo.png") ;
+ 	background-position: right bottom, left top;
+ 	background-repeat: no-repeat, repeat;
 }
 
 h1 {
@@ -47,19 +47,34 @@ a {
 	/*Style your image, and adjust the height or the width of your image*/
 .feature-image {
 	position: absolute;
-	transform: translateX(1150px);
-	object-fit: cover;
+	transform: translateX(1400px);
 }
 
 .feature-image img {
-	border-radius: 25px;
-	filter: grayscale(1);
-	width: 600px;
-	height: auto;
-}
+	 width: 600px;
+	 height: 600px;
+	 transition: width 2s;
+	}
+.feature-image:hover {
+		height: 1200px;
+		width: 1200px;
+	}
 
 /*******************************/
 /* Divided into useful sections*/
 /*******************************/
+.newspaper {
+	column-count: 3;
+}
 
+@keyframes example{
+	from {background-image: radial-gradient(blue,black);}
+	to {background-image: radial-gradient(orange,black);}
+}
+
+body{
+	background-image: radial-gradient(blue,black);
+	animation-name: example;
+	animation-duration:4s;
+}
 /* Most specific at bottom*/
