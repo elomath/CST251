@@ -39,18 +39,6 @@ a {
 	font-style: normal;
 }
 
-#sidebar {
-	color: #ED7A45;
-	display: inline;
-	position: fixed;
-	font-size: 50px;
-	top:100px;
-	right:100px;
-	width: 30%;
-	min-width: 300px;
-	height: 30px;
-}
-
 nav {
 	display: inline;
 	position: static;
@@ -80,27 +68,6 @@ nav {
 /* Classes */
 /*******************************/
 
-.center-div {
-width: 30%;
-border: solid 3px black;
-height: 250px;
-}
-
-.center-div img {
-width: 150px;
-height: auto;
-
-}
-
-.wide {
-	letter-spacing: 3px;
-}
-
-.bodytext {
-	font-size: 40px;
-	word-spacing: 5px;
-	line-height: 2em;
-}
 /*******************************/
 /* IDs*/
 /*******************************/
@@ -126,5 +93,5 @@ iframe#fake {
 width: 800px;
 height: 500px;
 resize: both;
-overflow: hidden;
+overflow: scroll;
 }
