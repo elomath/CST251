@@ -1,21 +1,35 @@
 .header{
   border: 5px, solid, black;
+  width: 33%;
+  height: auto;
 }
 .footer{
  border: 5px, solid, black;
+ width: 33%;
+ height: auto;
 }
 .nav_links{
  border: 5px, solid, black;
+ width: 33%;
+ height: auto;
 }
 .main{
  border: 5px, solid, black;
+ width: 33%;
+ height: auto;
 }
 #challenge{
   border: 5px, solid, black;
+  width: 25%;
+  height: auto;
 }
 #problems{
   border: 5px, solid, black;
+  width: 25%;
+  height: auto;
 }
 #solutions{
   border: 5px, solid, black;
+  width: 25%;
+  height: auto;
 }
