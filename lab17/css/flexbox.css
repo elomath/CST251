@@ -8,10 +8,11 @@
   height: 10%;
   color: black;
   text-align: center;
-  float: left;
 }
 .center-content{
 align-content: center;
+display: flex;
+flex-direction: row;
 }
 .nav_links{
  border: 5px solid black;
@@ -19,8 +20,9 @@ align-content: center;
  height: 20%;
  color: black;
  text-align: center;
- float: right;
- clear: right;
+ display: flex;
+ flex-wrap: wrap;
+ align-content: flex-end;
 }
 .aside{
   border: 5px solid black;
@@ -28,8 +30,9 @@ align-content: center;
   height: 60%;
   color: black;
   text-align: center;
-  float: right;
-  clear: right;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
 }
 .main{
  border: 5px solid black;
@@ -37,8 +40,9 @@ align-content: center;
  height: 80%;
  color: black;
  text-align: center;
- float: left;
- clear: left;
+ display: flex;
+ flex-wrap: wrap;
+ align-content: flex-start;
 }
 #challenge{
   border: 5px solid black;
@@ -68,5 +72,4 @@ align-content: center;
  color: black;
  align-items: bottom;
  text-align: center;
- float: left;
 }
