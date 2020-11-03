@@ -9,6 +9,7 @@
  width: 100%;
  height: 10%;
  color: black;
+ align-items: bottom;
 }
 .nav_links{
  border: 5px solid black;
