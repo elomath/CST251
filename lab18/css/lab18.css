@@ -1,0 +1,82 @@
+#content{
+  width: 100%;
+  height: auto;
+}
+.header{
+  border: 5px solid black;
+  width: 100%;
+  height: 10%;
+  color: black;
+  text-align: center;
+}
+.center-content{
+  align-content: center;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 80%;
+}
+.center-right-content{
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  width:33%
+}
+.nav_links{
+  border: 5px solid black;
+  width: 100%;
+  height: 20%;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.aside{
+  border: 5px solid black;
+  width: 100%;
+  height: 80%;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.main{
+  border: 5px solid black;
+  width: 67%;
+  height: 80%;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+#challenge{
+  border: 5px solid black;
+  width: 100%;
+  height: auto;
+  color: black;
+  text-align: center;
+}
+#problems{
+  border: 5px solid black;
+  width: 100%;
+  height: auto;
+  color: black;
+  text-align: center;
+}
+#results{
+  border: 5px solid black;
+  width: 100%;
+  height: auto;
+  color: black;
+  text-align: center;
+}
+.footer{
+ border: 5px solid black;
+ width: 100%;
+ height: 10%;
+ color: black;
+ align-items: bottom;
+ text-align: center;
+}
