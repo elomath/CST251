@@ -15,12 +15,18 @@
   flex-direction: row-reverse;
   height: 80%;
   width: 100%;
+  flex-wrap: wrap;
+}
+@media screen and (max-width:600px) {
+ .center-right-content , .main,  {
+ width:100%;
+ }
 }
 .center-right-content{
   align-content: center;
   display: flex;
   flex-direction: column;
-  width:20%
+  flex: 2;
 }
 .nav_links{
   border: 5px solid black;
@@ -56,6 +62,7 @@
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
+  flex: 8;
 }
 #challenge{
   border: 5px solid black;
