@@ -44,14 +44,9 @@
   height: 80%;
   color: black;
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-end;
 }
-.author_image{
-  width: 20%;
-  height: 20%;
-  object-fit: contain;
+.author_image img{
+  width: 100%;
 }
 .main{
   border: 5px solid black;
