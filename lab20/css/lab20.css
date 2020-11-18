@@ -31,7 +31,7 @@ p {
  	font-style: normal;
 	color: white;
 	border: 5px solid #FF8D33;
-	width: 50%;
+	width: 40%;
 }
 
 a {
@@ -46,14 +46,14 @@ a {
 	/*Style your image, and adjust the height or the width of your image*/
 .feature-image {
 	position: absolute;
-	transform: translateX(1150px);
+	transform: translateX(1000px);
 	object-fit: cover;
 }
 
 .feature-image img {
 	border-radius: 25px;
 	filter: grayscale(1);
-	width: 600px;
+	width: 30%;
 	height: auto;
 }
 
