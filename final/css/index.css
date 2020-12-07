@@ -1,0 +1,74 @@
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 50px;
+  padding: 15px;
+}
+
+.aside {
+  border: solid 1px black;
+  background-color: #f2e1d0;
+  width: 25%;
+  text-align: center;
+  height: auto;
+
+}
+
+.flex2 {
+ display: flex;
+}
+
+.main {
+ width: 50%;
+ height: auto;
+ border: solid 1px black;
+ text-align: center;
+}
+
+.main img {
+width: 400px;
+height: auto;
+max-width: 100%;
+
+}
+
+.right {
+   width: 25%;
+   height: auto;
+   border: solid 1px black;
+   text-align: center;
+}
+
+.right a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.flex1 {
+ text-align: center;
+ border: solid 0.5px;
+ color: black;
+ background-color: #f2e1d0;
+}
+
+.nav {
+  border: solid 0.5px black;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 45px;
+  background-color: #8e191c;
+  text-decoration-color: none;
+  text-decoration-style: none;
+}
