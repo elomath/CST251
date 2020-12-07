@@ -17,6 +17,9 @@ img {
   padding: 15px;
 }
 
+a:link{
+  color:black;
+}
 .aside {
   border: solid 1px black;
   background-color: #f2e1d0;
@@ -56,6 +59,10 @@ max-width: 100%;
   text-decoration: none;
 }
 
+.right img {
+  display: inline;
+}
+
 .flex1 {
  text-align: center;
  border: solid 0.5px;
@@ -69,6 +76,34 @@ max-width: 100%;
   font-family: 'Amatic SC', cursive;
   font-size: 45px;
   background-color: #8e191c;
-  text-decoration-color: none;
-  text-decoration-style: none;
+}
+
+/* Social Media Buttons*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background:#125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background:#007bb5;
+  color: white;
 }
