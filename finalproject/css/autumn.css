@@ -1,0 +1,98 @@
+/* Spring Colors Hexadecimal Code*/
+/*Pink #ff7d96 Green #88c800*/
+.nav {
+border: solid 0.5px black;
+text-align: center;
+font-family: 'Amatic SC';
+background-color: black;
+}
+
+.nav a {
+padding: 15px 30px;
+font-size: 45px;
+}
+
+.header img {
+  /* display: flex;
+  flex-wrap: wrap;
+  align: left; */
+  float: left;
+  width: 300px;
+  height: auto;
+  padding-top: 20px;
+}
+
+img.leaf {
+  width: 350px;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Seasonal Cinema Main Title*/
+h1 {
+font-family: 'Amatic SC', cursive;
+font-size: 60px;
+display: inline-block;
+padding-right: 20%;
+}
+/*Section Titles*/
+h2 {
+font-family: 'Amatic SC', cursive;
+font-size: 50px;
+color: black;
+font-weight: bold;
+text-align: center;
+}
+
+.flex1 {
+text-align: center;
+border: solid 0.5px black;
+color: #f47b20;
+background-color: #f2e1d0;
+}
+a:visited {
+color: white;
+}
+
+a {
+text-decoration: none;
+}
+
+a:link {
+color: white;
+}
+
+a:active{
+color: white;
+}
+.box a {
+  color: #f47b20;
+}
+img {
+width: 220px;
+height: 330px;
+}
+
+.flex{
+  display: flex;
+  border: solid 10px #f47b20;
+  background-color: #f2e1d0;
+  width: inherit;
+  flex-wrap: wrap;
+}
+.box{
+  width: 300px;
+  max-width: 00px
+  height: 600px;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  margin-left: 150px;
+}
+.container{
+  flex-grow: 2;
+}
+
+.box h3 {
+  font-family: 'Limelight', cursive;
+}

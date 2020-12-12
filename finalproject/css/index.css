@@ -1,0 +1,203 @@
+/*Seasonal Cinema Main Title*/
+h1 {
+font-family: 'Amatic SC', cursive;
+font-size: 60px;
+}
+/*Section Titles*/
+h2 {
+font-family: 'Amatic SC', cursive;
+font-size: 30px;
+color: white;
+font-weight: bold;
+}
+/*Contact/Email Title*/
+h3 {
+font-family: 'Amatic SC', cursive;
+font-size: 30px;
+color: white;
+margin: 0px;
+}
+
+img {
+width: 60px;
+padding: 15px;
+}
+
+.featured h2{
+font-family: 'Amatic SC', cursive;
+font-size: 30px;
+color:black;
+}
+
+p {
+font-family: 'Roboto', sans-serif;
+color: white;
+text-align: center;
+font-weight: bold;
+}
+
+.main p {
+font-family: 'Roboto', sans-serif;
+color: black;
+text-align: center;
+}
+
+#about p {
+text-align: center;
+padding-left: 5px;
+}
+
+#contact p {
+text-align: center;
+padding-left: 5px;
+}
+
+a:visited {
+color: white;
+}
+
+a {
+text-decoration: none;
+}
+
+a:link {
+color: white;
+}
+
+a:active{
+color: white;
+}
+
+.aside {
+border: solid 1px black;
+background-color: #8e191c;
+width: 25%;
+height: auto;
+text-align: center;
+}
+
+.flex1 {
+text-align: center;
+border: solid 0.5px;
+color: black;
+background-color: #f2e1d0;
+}
+
+.flex2 {
+display: flex;
+}
+
+.featured img {
+width: 400px;
+height: auto;
+max-width: 100%;
+background-color: white;
+border: solid 7px black;
+}
+
+.main {
+width: 80%;
+height: auto;
+border: solid 1px black;
+background-color: #f2e1d0;
+text-align: center;
+}
+
+.main img {
+width: 400px;
+height: auto;
+max-width: 100%;
+}
+
+.main h2 {
+font-size: 40px;
+}
+
+#social h2 {
+color: black;
+font-size: 35px;
+}
+
+#social {
+  padding-bottom: 25px;
+}
+
+#footer {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  padding-bottom: 0px;
+}
+.right {
+width: 25%;
+height: auto;
+border: solid 1px black;
+background-color: #8e191c;
+text-align: center;
+}
+
+.right a {
+font-family: 'Roboto', sans-serif;
+text-decoration: none;
+}
+
+#toppicks h2 {
+font-family: 'Amatic SC', cursive;
+font-size: 30px;
+}
+
+#toppicks p {
+font-family: 'Roboto', sans-serif;
+color: white;
+font-size:
+}
+
+.nav {
+border: solid 0.5px black;
+text-align: center;
+font-family: 'Amatic SC';
+background-color: black;
+}
+
+.nav a {
+padding: 15px 30px;
+font-size: 45px;
+}
+ /* Social Media */
+.fa {
+padding: 20px;
+margin: 20px;
+font-size: 40px;
+width: 15px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-instagram {
+background:#125688;
+color: white;
+}
+
+.fa-linkedin {
+background:#007bb5;
+color: white;
+}
+
+@media screen and (max-width: 600px) {
+.flex2 .main .aside{
+  flex-direction: column;
+  width: 100%;
+}
