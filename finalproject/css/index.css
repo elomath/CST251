@@ -2,6 +2,8 @@
 h1 {
 font-family: 'Amatic SC', cursive;
 font-size: 60px;
+display: inline-block;
+padding-right: 20%;
 }
 /*Section Titles*/
 h2 {
@@ -50,6 +52,24 @@ padding-left: 5px;
 #contact p {
 text-align: center;
 padding-left: 5px;
+}
+
+#about img {
+  width: 230px;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+}
+
+.header img {
+  /* display: flex;
+  flex-wrap: wrap;
+  align: left; */
+  float: left;
+  width: 300px;
+  height: auto;
+  padding-top: 20px;
 }
 
 a:visited {
@@ -151,7 +171,6 @@ font-size: 30px;
 #toppicks p {
 font-family: 'Roboto', sans-serif;
 color: white;
-font-size:
 }
 
 .nav {

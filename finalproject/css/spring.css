@@ -1,5 +1,5 @@
-/* Spring Colors Hexadecimal Code*/
-/*Pink #ff7d96 Green #88c800*/
+/* winter Colors Hexadecimal Code*/
+/*Blue ##89afe0 Light #d5deef*/
 .nav {
 border: solid 0.5px black;
 text-align: center;
@@ -22,6 +22,21 @@ font-size: 45px;
   padding-top: 20px;
 }
 
+.shadow img{
+  box-shadow: 5px 10px #88c800;
+}
+
+img.snow {
+    width: 350px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.box a {
+  color: #88c800;
+}
+
 /*Seasonal Cinema Main Title*/
 h1 {
 font-family: 'Amatic SC', cursive;
@@ -41,9 +56,10 @@ text-align: center;
 .flex1 {
 text-align: center;
 border: solid 0.5px black;
-color: #8ac906;
+color: #88c800;
 background-color: #f2e1d0;
 }
+
 a:visited {
 color: white;
 }
@@ -53,7 +69,7 @@ text-decoration: none;
 }
 
 a:link {
-color: white;
+color: #88c800;
 }
 
 a:active{
@@ -67,7 +83,7 @@ height: 330px;
 
 .flex{
   display: flex;
-  border: solid 10px #8ac906;
+  border: solid 10px #88c800;
   background-color: #f2e1d0;
   width: inherit;
   flex-wrap: wrap;
@@ -86,4 +102,22 @@ height: 330px;
 
 .box h3 {
   font-family: 'Limelight', cursive;
+}
+
+img.drop {
+  max-width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+.shadow img {
+  box-shadow: 5px 10px #88c800;
+}
+
+@media screen and (max-width: 800px) {
+.flex .box{
+  flex-direction: column;
+  width: 100%;
+  margin-left: 50px;
 }

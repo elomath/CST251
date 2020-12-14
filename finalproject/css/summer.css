@@ -13,10 +13,18 @@ font-size: 45px;
 }
 
 img.sun {
-    width: 400px;
+    min-width: 400px;
     height: auto;
     margin: 0px;
     padding: 0px;
+}
+
+.shadow img{
+  box-shadow: 5px 10px #53b2aa;
+}
+
+.box a {
+  color: #53b2aa;
 }
 
 .header img {
@@ -59,9 +67,9 @@ a {
 text-decoration: none;
 }
 
-a:link {
+/* a:link {
 color: white;
-}
+} */
 
 a:active{
 color: white;
@@ -95,6 +103,10 @@ height: 330px;
   font-family: 'Limelight', cursive;
 }
 
-.box a{
-  color:#ebc057;
+
+@media screen and (max-width: 800px) {
+.flex .box{
+  flex-direction: column;
+  width: 100%;
+  margin-left: 50px;
 }

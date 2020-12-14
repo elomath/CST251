@@ -51,6 +51,7 @@ border: solid 0.5px black;
 color: #f47b20;
 background-color: #f2e1d0;
 }
+
 a:visited {
 color: white;
 }
@@ -66,14 +67,18 @@ color: white;
 a:active{
 color: white;
 }
+
 .box a {
   color: #f47b20;
 }
+
 img {
 width: 220px;
 height: 330px;
 }
-
+.shadow img{
+  box-shadow: 5px 10px #f47b20;
+}
 .flex{
   display: flex;
   border: solid 10px #f47b20;
@@ -95,4 +100,11 @@ height: 330px;
 
 .box h3 {
   font-family: 'Limelight', cursive;
+}
+
+@media screen and (max-width: 800px) {
+.flex .box{
+  flex-direction: column;
+  width: 100%;
+  margin-left: 50px;
 }
